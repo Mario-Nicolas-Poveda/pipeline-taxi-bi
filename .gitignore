@@ -1,0 +1,15 @@
+# Credenciales — NUNCA subir al repositorio
+*.json
+.env
+credentials.py
+service_account*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/.user.yml
